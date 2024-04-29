@@ -1,0 +1,41 @@
+* {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+main {
+    background: rgb(163, 80, 241);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    font-weight: bold;
+    color: rgb(238, 95, 88);
+}
+
+.map {
+    background: rgb(202, 196, 196);
+    color: rgb(83, 246, 246);
+    padding: 2px;
+    border-radius: 5px;
+}
+
+.dash1 {
+    color: rgb(83, 246, 246);
+}
+
+.outline {
+    border: 2px solid whitesmoke;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.last {
+    padding-top: 20px;
+}
+
+.link2 {
+    color: rgb(83, 246, 246);
+}
