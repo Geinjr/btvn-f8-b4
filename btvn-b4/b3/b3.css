@@ -10,7 +10,7 @@ main {
     padding: 10px;
 }
 
-div {
+li {
     display: flex;
     align-items: center;
 }

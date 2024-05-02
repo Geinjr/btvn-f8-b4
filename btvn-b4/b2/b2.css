@@ -1,11 +1,42 @@
 * {
-    font-family: "Jersey 20 Charted", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;
 }
 
 blockquote {
-    background: a352d9;
-    padding: 20px;
-    border-radius: 5px;
+    color: rebeccapurple;
+    width: 60%;
+    position: relative;
+    padding: 40px;
+}
+
+blockquote::before {
+    position: absolute;
+    content: "“";
+    width: 40px;
+    height: 40px;
+    background: #ddd;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 65px;
+    color: #7fd1ae;
+    font-size: 50px;
+    left: -14px;
+    top: -3px;
+}
+
+blockquote::after {
+    position: absolute;
+    content: ",,";
+    width: 40px;
+    height: 40px;
+    background: #ddd;
+    border-radius: 50%;
+    color: #7fd1ae;
+    font-size: 50px;
+    bottom: 7px;
+    right: 38px;
+    text-align: center;
+    line-height: 15px;
 }

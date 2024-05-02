@@ -5,14 +5,15 @@
 }
 
 main {
-    background: rgb(163, 80, 241);
+    background: rgb(153, 152, 154);
     padding: 20px;
     border-radius: 10px;
 }
 
-h1 {
+.title {
+    font-size: 30px;
     font-weight: bold;
-    color: rgb(238, 95, 88);
+    color: rgb(7, 7, 255);
 }
 
 .map {
